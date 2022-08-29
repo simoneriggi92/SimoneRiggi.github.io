@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Simone Riggi - Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+			<h1 id="colorlib-logo"><a href="index.html">simone<span>.</span></a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="development.html">Development</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="colorlib-footer">
+				
+				<ul>
+					<li><a href="https://www.linkedin.com/in/simone-riggi-11b1a9180/"><i class="icon-linkedin"></i></a></li>
+					<li><a href="https://github.com/simoneriggi92/WebApp_Client"><i class="icon-github"></i></a></li>
+				</ul>
+			</div>
+		</aside> <!-- END COLORLIB-ASIDE -->
+		<div id="colorlib-main">
+			<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="js-fullheight d-flex justify-content-center align-items-center">
+					<div class="col-md-8 text text-center">
+						<div class="desc">
+							<h1 class="mb-4">Mobile Data Marketplace</h1>
+							<p><a href="index.html" class="btn-custom mr-2">Home <span class="ion-ios-arrow-forward"></span></a> <a href="development.html" class="btn-custom mr-2">Work02 <span class="ion-ios-arrow-forward"></span></a> <a href="shareOnLan.html" class="btn-custom">Mobile Data Marketplace <span class="ion-ios-arrow-forward"></span></a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="ftco-section">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-lg-8 ftco-animate">
+	            <h2 class="mb-3 font-weight-bold">Mobile Data Marketplace a WebApp which allows the commercialization of personal data relating to the position coordinates of an user. The WebApp exposes sign-up and login APIs.</h2>
+				<p>Based on the use of the <strong>Spring Boot framework</strong>, which offers a set of REST access points aimed at allowing the saving and access to sequences of geographical locations of individual users, 
+					according to the following requirements:
+					
+						
+					User authentication is managed through the use of Spring Security and the<strong>OAuth2</strong>  protocol by appropriately 
+					configuring the endpoints needed to request an access token based on <strong>JWT (JSON Web Token)</strong>
+				</p>
+				
+				<p>
+					<img src="images/marketplace/home.png" alt="" class="img-fluid">
+				  </p>
+	            
+				<p>
+					Defined three different roles for the control access: <strong>ADMIN, USER, CUSTOMER.</strong>
+					Users with the <strong>ADMIN</strong> role can access all data stored by USERS and CUSTOMERS. Users with the <strong>USER</strong> role can save and later retrieve their data. 
+									Users with the <strong>CUSTOMER</strong> role can retrieve the number of positions present in an area delimited by a <strong>polygon</strong> in a given time interval,
+									and subsequently decide whether or not to purchase the positions by recording the transaction; </p>
+
+					<p>
+						<img src="images/marketplace/myarchive.png" alt="" class="img-fluid">
+					</p>
+					<p>
+						<img src="images/marketplace/search.png" alt="" class="img-fluid">
+					</p>
+					<p>
+									if this happens it will be necessary to attribute to the users who have provided the individual data a fraction of the price paid 
+									proportional to the amount of data actually purchased (as part of the logic, the transaction is simulated and no money exchange takes place)
+					</p>
+
+				<p>
+					<img src="images/marketplace/buy.png" alt="" class="img-fluid">
+				  </p>
+				<p>
+					Each user has a personal profile page where he can recharges its personal wallet.
+				</p>
+				  <p>
+					<img src="images/marketplace/wallet.png" alt="" class="img-fluid">
+				  </p>
+				  <p>
+					Used <strong>MongoDB</strong> to save data and perform geographic queries to determine the locations belonging to a given area.
+					
+				</p>
+				
+				<p>
+					Packaged the application using maven and create a <strong>Docker</strong> container to host it.
+				</p>
+
+	            <h2 class="mb-3 mt-5 font-weight-bold">Tools and language</h2>
+	            <div class="tag-widget post-tag-container mb-5 mt-5">
+	              <div class="tagcloud">
+	                <a href="#" class="tag-cloud-link">SpringBoot Framework</a>
+	                <a href="#" class="tag-cloud-link">Java</a>
+	                <a href="#" class="tag-cloud-link">MongoDb</a>
+	                <a href="#" class="tag-cloud-link">Oauth2.0</a>
+	                <a href="#" class="tag-cloud-link">Angular2+</a>
+	                <a href="#" class="tag-cloud-link">Typescript</a>
+	                <a href="#" class="tag-cloud-link">Docker</a>
+	                <a href="#" class="tag-cloud-link">Postman</a>
+	              </div>
+	            </div>
+	            
+	            <div class="about-author d-flex p-4 bg-light">
+	              <div class="bio mr-5">
+	                <img src="images/profile.jpeg" alt="Image placeholder" class="img-fluid mb-4">
+	              </div>
+	              <div class="desc">
+	                <h3>Simone Riggi</h3>
+	                <p>Software engineer with <strong>3 years</strong> of experience. Experienced in <strong>Desktop Apps, Web Apps, APIs</strong> development and interested in everything related to coding and web technologies.</p>
+	              </div>
+	            </div>
+
+
+	      
+	          </div> <!-- .col-md-8 -->
+	    			<div class="col-lg-4 sidebar ftco-animate">
+	           
+	            <div class="sidebar-box ftco-animate">
+	            	<h3 class="sidebar-heading">Categories</h3>
+	              <ul class="categories">
+	                <li><a href="development.html">Development <span>(3)</span></a></li>
+	              </ul>
+	            </div>
+
+	            <div class="sidebar-box ftco-animate">
+	              <h3 class="sidebar-heading">Popular Articles</h3>
+	              <div class="block-21 mb-4 d-flex">
+	                <a class="blog-img mr-4" style="background-image: url(images/share/settings.PNG);"></a>
+	                <div class="text">
+	                  <h3 class="heading"><a href="shareOnLan.html">Share your file easily.</a></h3>
+	                  <div class="meta">
+	                    <div><a href="#"><span class="icon-calendar"></span> Oct. 18, 2018</a></div>
+	                    <div><a href="#"><span class="icon-person"></span> Simone Riggi</a></div>
+	                  </div>
+	                </div>
+	              </div>
+				  <div class="block-21 mb-4 d-flex">
+	                <a class="blog-img mr-4" style="background-image: url(images/marketplace/home.png);"></a>
+	                <div class="text">
+	                  <h3 class="heading"><a href="market.html">Buy and sell your coordinates.</a></h3>
+	                  <div class="meta">
+	                    <div><a href="#"><span class="icon-calendar"></span> Mar. 10, 2019</a></div>
+	                    <div><a href="#"><span class="icon-person"></span> Simone Riggi</a></div>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="block-21 mb-4 d-flex">
+	                <a class="blog-img mr-4" style="background-image: url(images/project/home.png);"></a>
+	                <div class="text">
+	                  <h3 class="heading"><a href="project.html">Show and monitoring your sensor values.</a></h3>
+	                  <div class="meta">
+	                    <div><a href="#"><span class="icon-calendar"></span> Apr. 30, 2019</a></div>
+	                    <div><a href="#"><span class="icon-person"></span> Simone Riggi</a></div>
+	                  </div>
+	                </div>
+	              </div>
+	            </div>
+
+	            <div class="sidebar-box ftco-animate">
+	              <h3 class="sidebar-heading">Tag Cloud</h3>
+	              <ul class="tagcloud">
+					<a href="#" class="tag-cloud-link">SpringBoot Framework</a>
+	                <a href="#" class="tag-cloud-link">Java</a>
+	                <a href="#" class="tag-cloud-link">MongoDb</a>
+	                <a href="#" class="tag-cloud-link">Oauth2.0</a>
+	                <a href="#" class="tag-cloud-link">Angular2+</a>
+	                <a href="#" class="tag-cloud-link">Typescript</a>
+	                <a href="#" class="tag-cloud-link">Docker</a>
+	                <a href="#" class="tag-cloud-link">Postman</a>
+	              </ul>
+	            </div>
+
+							
+
+	            <div class="sidebar-box ftco-animate">
+	            	<h3 class="sidebar-heading">Archives</h3>
+	              <ul class="categories">
+	              	<li><a href="development.html"> 2018 <span>(1)</span></a></li>
+	                <li><a href="development.html"> 2019 <span>(2)</span></a></li>
+	                
+	              </ul>
+	            </div>
+
+
+	            <div class="sidebar-box ftco-animate">
+	              <h3 class="sidebar-heading">Paragraph</h3>
+	              <p>Mobile Data Marketplace a WebApp which allows the commercialization of personal data relating to the position coordinates of an user. The WebApp exposes sign-up and login APIs.</p>
+	            </div>
+	          </div><!-- END COL -->
+	    		</div>
+	    	</div>
+	    </section>
+	    <footer class="ftco-footer ftco-bg-dark ftco-section">
+	      <div class="container px-md-5">
+	        <div class="row mb-5">
+	          <div class="col-md">
+	            <div class="ftco-footer-widget mb-4 ml-md-4">
+	              <h2 class="ftco-heading-2">Category</h2>
+	              <ul class="list-unstyled categories">
+	                <li><a href="development.html">Development <span>(3)</span></a></li>
+	              </ul>
+	            </div>
+	          </div>
+	          <div class="col-md">
+	             <div class="ftco-footer-widget mb-4">
+	              <h2 class="ftco-heading-2">Archives</h2>
+	              <ul class="list-unstyled categories">
+	              	<li><a href="development.html"> 2018 <span>(1)</span></a></li>
+	                <li><a href="development.html"> 2019 <span>(2)</span></a></li>
+	              </ul>
+	            </div>
+	          </div>
+	          <div class="col-md">
+	            <div class="ftco-footer-widget mb-4">
+	            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+	            	<div class="block-23 mb-3">
+		              <ul>
+						<li><a href="#"><span class="icon icon-envelope"></span><span class="text">simone.riggi92@gmail.com</span></a></li>
+					</ul>
+		            </div>
+	            </div>
+	          </div>
+	        </div>
+	       
+	      </div>
+	    </footer>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
