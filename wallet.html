@@ -76,9 +76,7 @@
       <strong>Thread-safe operations</strong> are used to manage concurrent fund updates, and all services are injected using <strong>dependency injection</strong> for flexibility and testability.
     </p>
 
-    <p>
-      <img src="images/wallet/structure.png" alt="Project Structure" class="img-fluid">
-    </p>
+ 
 
     <p>
       The API exposes endpoints for wallet actions such as:
@@ -91,9 +89,7 @@
       </ul>
     </p>
 
-    <p>
-      <img src="images/wallet/api-demo.png" alt="API Request Example" class="img-fluid">
-    </p>
+    
 
     <p>
       Each request is validated for correctness. For example, adding or removing funds requires a valid positive <strong>amount</strong> and an existing wallet ID.
@@ -109,18 +105,13 @@
       </code>
     </p>
 
-    <p>
-      <img src="images/wallet/curl-example.png" alt="cURL Example" class="img-fluid">
-    </p>
+  
 
     <p>
       In real-world use cases, this structure can be extended with persistent storage, such as SQL Server or MongoDB, and connected to a <strong>distributed cache</strong> like Redis.
     </p>
 
-    <p>
-      <img src="images/wallet/prod-considerations.png" alt="Production Considerations" class="img-fluid">
-    </p>
-
+    
     <h2 class="mb-3 mt-5 font-weight-bold">Production Considerations</h2>
     <p>
       While this project uses in-memory storage for simplicity, the following would be required for production readiness:
@@ -134,10 +125,7 @@
       <li><strong>Load balancing:</strong> Behind an ALB with Auto Scaling</li>
     </ul>
 
-    <p>
-      <img src="images/wallet/architecture.png" alt="System Architecture" class="img-fluid">
-    </p>
-
+    
     <h2 class="mb-3 mt-5 font-weight-bold">Tools and Libraries</h2>
     <div class="tag-widget post-tag-container mb-5 mt-5">
       <div class="tagcloud">
